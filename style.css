@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+form,
+h1,
+h2,
+h3,
+p,
+span {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Anonymous Pro", monospace;
+}
+/* Style starte here */
+.container {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 100px;
+  text-align: center;
+}
+.game {
+  font-size: 100px;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+.winningScore {
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+.player-1 .player-2 {
+  font-size: 20px;
+}
+.input {
+  margin: 25px 0 25px 0;
+}
+.input .lockInput {
+  border-radius: 10%;
+  padding: 7px 10px;
+}
